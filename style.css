@@ -1,5 +1,10 @@
+body {
+  font-family: Gotham;
+}
+
 #header {
   height: 75px;
+  width: 100%;
   background-color: blue;
   color: white;
 }
@@ -10,9 +15,25 @@
   border-bottom: 1px solid #ddd;
 }
 
+.addeventatc_dropdown .copyx {
+    display: none !important;
+}
+
+td {
+  text-align: center;
+}
+
+table td a {
+  display: block;
+}
+
+a {
+    text-decoration: none !important;
+}
+
 td.hour {
   max-width: 100px;
-  height: 60px;
+  height: 40px;
   text-align: center;
   background-color: lightGray;
   color: blue;
@@ -27,9 +48,11 @@ th {
 
 .small-column {
   max-width: 250px;
+  min-width: 150px;
 }
 .large-column {
   max-width: 400px;
+  min-width: 200px;
 }
 
 .light-blue{
