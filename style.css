@@ -1,0 +1,86 @@
+#header {
+  height: 75px;
+  background-color: blue;
+  color: white;
+}
+
+#engage-table td {
+  vertical-align: middle;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+td.hour {
+  max-width: 100px;
+  height: 60px;
+  text-align: center;
+  background-color: lightGray;
+  color: blue;
+}
+
+th {
+  height: 45px;
+  text-align: center;
+  background-color: lightGray;
+  color: green;
+}
+
+.small-column {
+  max-width: 250px;
+}
+.large-column {
+  max-width: 400px;
+}
+
+.light-blue{
+  background-color: lightBlue;
+}
+.dark-gray {
+  background-color: darkgrey;
+}
+.green {
+  background-color: green;
+}
+.gray {
+  background-color: gray;
+}
+.light-yellow {
+  background-color: lightyellow;
+}
+
+.center-text {
+  text-align: center;
+}
+.modal-footer {
+  text-align: inherit;
+  height: 40px;
+  background-color: green;
+}
+
+.addeventatc {
+  float: right;
+  font-size: 12px;
+}
+
+.modal-footer-text {
+  vertical-align: middle;
+  position: relative;
+}
+
+@media only screen and (min-width: 769px) {
+    .short {
+      display: none;
+    }
+    .long {
+      display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .short {
+      display: inline-block;
+    }
+    .long {
+      display: none;
+    }
+}
