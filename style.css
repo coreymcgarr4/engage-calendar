@@ -5,7 +5,7 @@ body {
 #header {
   height: 75px;
   width: 100%;
-  background-color: blue;
+  background-color: #55AF9B;
   color: white;
 }
 
@@ -35,15 +35,26 @@ td.hour {
   width: 100px;
   height: 30px;
   text-align: center;
-  background-color: lightGray;
+  background-color: #FAFAFA;
   color: blue;
+}
+
+.bootcamps {
+  background: linear-gradient(to right, lightgray 50%, #71BCC7 51%);
+}
+.meet-experts {
+  background: linear-gradient(to right, #A5628E 33.33%, #71BCC7 33.33%);
 }
 
 th {
   height: 45px;
   text-align: center;
-  background-color: lightGray;
+  background-color: #FAFAFA;
   color: green;
+}
+
+.bus-track {
+  border-right: 1px solid #ddd;
 }
 
 .small-column {
@@ -56,7 +67,7 @@ th {
 }
 
 .light-blue{
-  background-color: lightBlue;
+  background-color: #71BCC7;
 }
 .dark-gray {
   background-color: darkgrey;
@@ -68,7 +79,10 @@ th {
   background-color: gray;
 }
 .light-yellow {
-  background-color: lightyellow;
+  background-color: #F2D579;
+}
+.rp-red {
+  background-color: #A5628E;
 }
 
 .center-text {
@@ -76,13 +90,25 @@ th {
 }
 .modal-footer {
   text-align: inherit;
-  height: 40px;
+  height: 56px;
   background-color: green;
+  padding: 10px;
+}
+
+.modal-width {
+  max-width: 400px;
 }
 
 .addeventatc {
   float: right;
-  font-size: 12px;
+  font-size: 12px !important;
+  max-width: 150px;
+  padding: 11px 9px 9px 38px !important;
+}
+
+.addeventatc .addeventatc_icon {
+    left: 10px !important;
+    top: 8px !important;
 }
 
 .modal-footer-text {
